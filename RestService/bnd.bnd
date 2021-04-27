@@ -1,0 +1,6 @@
+Bundle-Name: RestService
+Bundle-SymbolicName: restservice
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration
+-metatype: *
+-plugin.metatype: com.liferay.ant.bnd.metatype.MetatypePlugin

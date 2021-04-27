@@ -1,0 +1,10 @@
+Bundle-Name: DBapi-api
+Bundle-SymbolicName: sb-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.infosys.serviceBuilder.exception,\
+	com.infosys.serviceBuilder.model,\
+	com.infosys.serviceBuilder.service,\
+	com.infosys.serviceBuilder.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../DBapi-service/service.xml

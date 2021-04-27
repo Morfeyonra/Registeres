@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.infosys.serviceBuilder.model.banks">
+		<field name="uuid" type="String" />
+		<field name="bank_name" type="String" />
+		<field name="bik" type="String" />
+		<field name="address" type="String" />
+	</model>
+	<model name="com.infosys.serviceBuilder.model.job_register">
+		<field name="position" type="String" />
+		<field name="archive" type="boolean" />
+	</model>
+	<model name="com.infosys.serviceBuilder.model.staff_roster">
+		<field name="worker_id" type="int" />
+		<field name="last_name" type="String" />
+		<field name="first_name" type="String" />
+		<field name="middle_name" type="String" />
+		<field name="birth_date" type="Date" />
+		<field name="position" type="String" />
+		<field name="employment_date" type="Date" />
+		<field name="salary" type="int" />
+		<field name="work_phone_num" type="String" />
+		<field name="mobile_phone_num" type="String" />
+		<field name="bank" type="String" />
+		<field name="archive" type="boolean" />
+	</model>
+</model-hints>
